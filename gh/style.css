@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 6px 6px 6px #6db1ff(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid #9942b1;
+    padding-bottom: 20px;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-title {
+    margin-left: 20px;
+}
+
+.name-title h1 {
+    font-size: 24px;
+    color: #1a1a1a;
+}
+
+.contact-info {
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    font-size: 18px;
+    color: #1a1a1a;
+    cursor: pointer;
+    border-bottom: 4px solid #9942b1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.section p, .section ul, .section li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.section ul {
+    list-style-type: none;
+}
+
+.expertise ul, .skills-summary ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Hide experience details initially */
+#experience-content {
+    display: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #9942b1;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5ca9fc;
+}
